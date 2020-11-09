@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="58.0" fitWidth="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/WELCOME.PNG" />
+         </image>
+      </ImageView>
+      <VBox layoutX="14.0" layoutY="66.0" prefHeight="197.0" prefWidth="563.0">
+         <children>
+            <Label prefHeight="30.0" prefWidth="568.0" style="-fx-background-color: #000000;" text="                                    &quot;STORE POLICY&quot;" textFill="WHITE">
+               <padding>
+                  <Insets bottom="9.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="567.0" style="-fx-background-color: #FFFFFF;" text="1. Donated amounts are non refundable">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="592.0" text="2. Conformation By Verification Of Email Is Important For">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="643.0" style="-fx-background-color: #FFFFFF;" text="   Confirming Your Baby-Sit .">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="31.0" prefWidth="599.0" text="3. For Adopting a Puppy It Should Be Booked Through App ">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="576.0" style="-fx-background-color: #FFFFFF;" text="   But Should Be Picked Up From The Store.">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
